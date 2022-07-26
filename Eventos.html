@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="eventos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <h1>Eventos y  Reservaciones</h1>
+
+    <div class="headerr"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+
+    
+    
+
+    <h4>Ubicación</h4>
+
+    <ul class="ubicacion">
+        <li>Buenos Aires</li>
+        <li>Caballito</li>
+        <li>Thompson 868</li>
+    </ul>
+
+    <h5>Horarios</h5>
+
+    <ul class="horarios">
+        <li>Lunes a Jueves 9am - 10pm</li>
+        <li>Viernes 11am - 11pm</li>
+        
+    </ul>
+
+    <h6>Contacto</h6>
+
+    <ul class="contacto">
+        <li>Email: Mozzafiato@gmail.com</li>
+        <li>Tel: 2345-498193</li>
+    </ul>
+
+    <img src="./instagram.png" class="instagram">
+    <img src="./FACEBOOK.png" class="facebook">
+
+    <h7>@MOZZAFIATO</h7>
+
+    
+
+    
+
+
+    <div class="container">
+        <div class="header">
+            <h2>Crear cuenta y reservar fecha</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Ingrese su fecha deseada</label>
+                <input type="text" placeholder="dd/mm/aa" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="ejemplo@email.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Contraseña" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Repetir contraseña</label>
+                <input type="password" placeholder="Contraseña" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>ENVIAR</button>
+        </form>
+    </div>
+
+    <script src="./inicio.js"></script>
+</body>
+
+</html>
